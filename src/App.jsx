@@ -1,14 +1,34 @@
+import { Routes, Route } from "react-router-dom";
+
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Project from "./components/Project";
+import BeyondCoding from "./components/BeyondCoding";
+import LeetCode from "./components/LeetCode";
+import Events from "./components/Events";
+import Certifications from "./components/Certifications";
 
-function App() {
+function Home() {
   return (
-    <div className="bg-black text-white min-h-screen">
+    <>
       <Navbar />
       <Hero />
       <About />
-    </div>
+      <Project />
+      <BeyondCoding />
+    </>
+  );
+}
+
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/leetcode" element={<LeetCode />} />
+      <Route path="/events" element={<Events />} />
+      <Route path="/certifications" element={<Certifications />} />
+    </Routes>
   );
 }
 
