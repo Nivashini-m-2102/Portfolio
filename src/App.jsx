@@ -5,9 +5,9 @@ import Hero from "./components/hero";
 import About from "./components/about";
 import Project from "./components/project";
 import BeyondCoding from "./components/BeyondCoding";
-import LeetCode from "./components/leetcode";
-import Events from "./components/events";
-import Certifications from "./components/certifications";
+import LeetCode from "./components/Leetcode";
+import Events from "./components/Events";
+import Certifications from "./components/Certifications";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
 function Home() {
