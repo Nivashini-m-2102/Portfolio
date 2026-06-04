@@ -9,7 +9,7 @@ export default function About() {
   };
 
   return (
-    <section className="w-full py-20 bg-gradient-to-br from-black via-gray-900 to-black text-white">
+    <section id = "about" className="w-full py-20 bg-gradient-to-br from-black via-gray-900 to-black text-white">
 
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-start">
 

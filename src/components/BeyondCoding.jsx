@@ -12,6 +12,7 @@ import {
   FaBook,
   FaLightbulb,
   FaGraduationCap,
+  FaGlobe
 } from "react-icons/fa";
 
 const cards = [
@@ -41,15 +42,14 @@ const cards = [
     link: "/certifications",
     external: false,
   },
-
   {
-    title: "Learning Journey",
-    description:
-      "A timeline of my growth from beginner to developer.",
-    icon: <FaRocket />,
-    link: "/journey",
-    external: false,
-  },
+  title: "Pareri Handicraft Website",
+  description:
+    "Developed and published the Pareri Handicraft website, delivering a responsive and visually appealing platform for promoting handmade products online.",
+  icon: <FaGlobe />,
+  link: "https://www.parerihandicraft.com/",
+  external: true,
+},
 ];
 
 const BeyondCoding = () => {

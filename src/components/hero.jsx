@@ -79,7 +79,8 @@ const Hero = () => {
         transition={{ duration: 0.6, delay: 0.6 }}
         className="flex gap-4 mt-10 flex-wrap justify-center"
       >
-        <button
+        <a
+          href="#projects"
           className="
           px-7 py-3
           rounded-xl
@@ -93,7 +94,7 @@ const Hero = () => {
           "
         >
           View Projects
-        </button>
+        </a>
 
         <a
           href="/resume.pdf"

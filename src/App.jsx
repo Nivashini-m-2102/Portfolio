@@ -8,6 +8,8 @@ import BeyondCoding from "./components/BeyondCoding";
 import LeetCode from "./components/LeetCode";
 import Events from "./components/Events";
 import Certifications from "./components/Certifications";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function Home() {
   return (
@@ -17,6 +19,8 @@ function Home() {
       <About />
       <Project />
       <BeyondCoding />
+      <Contact />
+      <Footer />
     </>
   );
 }

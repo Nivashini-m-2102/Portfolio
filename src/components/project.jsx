@@ -34,9 +34,9 @@ const projects = [
     title: "Personal Knowledge Graph",
     description:
       "AI-powered learning platform that enables users to upload PDFs, extract concepts, build knowledge connections, track learning progress, and generate personalized quizzes.",
-    tech: "React • Node.js • AI • PDF Processing",
+    tech: "Node.js • AI • PDF Processing",
     github: "https://github.com/Nivashini-m-2102/personal-knowledge-graph-linker",
-    live: "#",
+    live: "https://github.com/Nivashini-m-2102/personal-knowledge-graph-linker",
   },
 
   {
